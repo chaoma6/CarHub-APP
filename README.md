@@ -1,17 +1,17 @@
-# CarHub Car ShowCase Application
+# CarHub Car Showcase Application
 
 CarHub is an advanced car search engine that allows users to discover the perfect ride based on their preferences. With CarHub, you can easily find detailed specifications for any brand, model, year, and fuel type.
 
 ## Summary
 
-CarHub is a Next.js web application built with TypeScript, React.js, Tailwind CSS, and Headless UI. It leverages server-side rendering (SSR) for improved performance and search engine optimization (SEO). The application provides a seamless user experience and offers a comprehensive database of car specifications.
+CarHub is built using a modern tech stack including Next.js, TypeScript, React.js, Tailwind CSS, and Headless UI. The application utilizes server-side rendering (SSR) for optimal performance and search engine optimization (SEO). CarHub delivers a seamless user experience and features a comprehensive database of car specifications.
 
-## API
+## API Integration
 
-CarHub integrates with the following APIs:
+CarHub seamlessly integrates with the following APIs to provide a rich and comprehensive car browsing experience:
 
-- **RAPID API**: Provides access to car-related data, including brand information, model details, and specifications.
-- **IMAGIN API**: Offers image manipulation capabilities for generating car images with different attributes.
+- **RAPID API**: Offers access to a wide range of car-related data, including brand information, model details, and specifications.
+- **IMAGIN API**: Provides advanced image manipulation capabilities, allowing CarHub to generate car images with customizable attributes.
 
 ## Tech Stack
 
@@ -24,26 +24,32 @@ CarHub integrates with the following APIs:
 ## Folder Structure
 
 Here is the folder structure of CarHub:
+Nextjs-CarHub-Web/
 |- app/
-|-- globals.css
-|-- layout.css
-|-- page.tsx
+|  |-- globals.css
+|  |-- layout.css
+|  |-- page.tsx
 |- components/
-|-- CarCard.tsx
-|-- CardDetails.tsx
-|-- CustomButton.tsx
-|-- CustomFilter.tsx
-|-- Footer.tsx
-|-- Hero.tsx
-|-- Navbar.tsx
-|-- SearchBar.tsx
-|-- SearchManufacturer.tsx
-|-- ShowMore.tsx
-|-- index.ts
+|  |-- CarCard.tsx
+|  |-- CardDetails.tsx
+|  |-- CustomButton.tsx
+|  |-- CustomFilter.tsx
+|  |-- Footer.tsx
+|  |-- Hero.tsx
+|  |-- Navbar.tsx
+|  |-- SearchBar.tsx
+|  |-- SearchManufacturer.tsx
+|  |-- ShowMore.tsx
+|  |-- index.ts
 |- data/
-|-- index.ts
+|  |-- index.ts
 |- types/
-|-- index.ts
+|  |-- index.ts
 |- utils/
-|-- index.ts
+|  |-- index.ts
 |- public/
+
+## Note
+Feel free to modify the folder structure to fit your project's needs while maintaining a logical separation of concerns.
+
+Please note that this is just an example folder structure and can be adapted according to your project's specific requirements and preferences.
