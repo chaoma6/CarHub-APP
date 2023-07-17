@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CarHub Car ShowCase Application
 
-## Getting Started
+CarHub is an advanced car search engine that allows users to discover the perfect ride based on their preferences. With CarHub, you can easily find detailed specifications for any brand, model, year, and fuel type.
 
-First, run the development server:
+## Summary
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+CarHub is a Next.js web application built with TypeScript, React.js, Tailwind CSS, and Headless UI. It leverages server-side rendering (SSR) for improved performance and search engine optimization (SEO). The application provides a seamless user experience and offers a comprehensive database of car specifications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+CarHub integrates with the following APIs:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **RAPID API**: Provides access to car-related data, including brand information, model details, and specifications.
+- **IMAGIN API**: Offers image manipulation capabilities for generating car images with different attributes.
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js**: A powerful React framework for server-rendered applications.
+- **TypeScript**: A statically typed superset of JavaScript that enhances code quality and developer productivity.
+- **React.js**: A popular JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Headless UI**: A set of accessible and customizable UI components.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Folder Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Here is the folder structure of CarHub:
+|- app/
+|-- globals.css
+|-- layout.css
+|-- page.tsx
+|- components/
+|-- CarCard.tsx
+|-- CardDetails.tsx
+|-- CustomButton.tsx
+|-- CustomFilter.tsx
+|-- Footer.tsx
+|-- Hero.tsx
+|-- Navbar.tsx
+|-- SearchBar.tsx
+|-- SearchManufacturer.tsx
+|-- ShowMore.tsx
+|-- index.ts
+|- data/
+|-- index.ts
+|- types/
+|-- index.ts
+|- utils/
+|-- index.ts
+|- public/
